@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FrancoOjeda/CursoReactJs/issues"
   },
-  "homepage": "https://github.com/FrancoOjeda/CursoReactJs#readme"
+  "homepage": "https://github.com/FrancoOjeda/CursoReactJs#readme",
+  "dependencies": {
+    "canvas-confetti": "1.9.2"
+  }
 }
