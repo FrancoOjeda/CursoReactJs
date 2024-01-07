@@ -18,5 +18,11 @@
   "homepage": "https://github.com/FrancoOjeda/CursoReactJs#readme",
   "dependencies": {
     "canvas-confetti": "1.9.2"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "esLintConfig": {
+    "extends": "./node_modules/standard/esLintrc.json"
   }
 }
