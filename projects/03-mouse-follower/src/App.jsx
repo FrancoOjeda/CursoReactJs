@@ -13,10 +13,16 @@ const FollowMouse = () => {
     if (enabled) {
       window.addEventListener("pointermove", handleMove);
     }
-
-    // cleanup se ejecuta cuando se desmonta el componente y cuando cambian las dependencias
+    // cleanup method se ejecuta cuando se desmonta el componente y cuando cambian las dependencias
     return () => {
       window.removeEventListener("pointermove", handleMove);
+    };
+  }, [enabled]);
+
+  useEffect(() => {
+    document.body.classList.toggle("no-cursor", !enabled);
+    return () => {
+      document.body.classList.remove("no-cursor");
     };
   }, [enabled]);
   return (
