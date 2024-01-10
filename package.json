@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Curso de reactjs con midudev",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FrancoOjeda/CursoReactJs.git"
@@ -20,6 +18,8 @@
     "canvas-confetti": "1.9.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.8",
     "standard": "^17.1.0"
   },
   "esLintConfig": {
