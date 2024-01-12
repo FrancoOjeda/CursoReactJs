@@ -15,7 +15,8 @@
   },
   "homepage": "https://github.com/FrancoOjeda/CursoReactJs#readme",
   "dependencies": {
-    "canvas-confetti": "1.9.2"
+    "canvas-confetti": "1.9.2",
+    "just-debounce-it": "3.2.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.1",
